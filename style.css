@@ -1,0 +1,346 @@
+
+/*Initiation de la fenetre*/
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Definition du CSS global pour le HEADER*/
+
+.flexboxHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+/* Definition du CSS pour l'emplacement du logo sur le HEADER*/
+.flexboxLogo {
+    display: flex;
+    width: 80%;
+}
+
+/* Definition du CSS img pour le logo*/
+.flexboxLogo img {
+    width: 100px;
+    height: 50px;
+    margin-left: 50px; 
+}
+
+/* Definition du CSS pour le bouton Hebergements du menu*/
+.flexboxHebergements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+        
+}
+
+/* Desactivation du trait lors d'un clic sur le lien ainsi que le reset de la couleur*/
+.flexboxHebergements a {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Definition du CSS lors du clic sur le bouton Hebergement*/
+.flexboxHebergements a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+    border: 2px solid #0065fc;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    color: #0065fc;
+}
+
+
+/* Definition du CSS pour le lien Activites du menu */
+.flexboxActivites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;  
+}
+
+/* Desactivation du trait lors d'un clic sur le lien*/
+.flexboxActivites a {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Definition du CSS lors du clic sur le lien Activites*/
+.flexboxActivites a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+    border: 2px solid #0065fc;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    color: #0065fc;
+}
+
+/*===============================================================================================*/
+.title-activities h3 {
+    margin-left: 50px;
+}
+
+.block-activities {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-bottom: 60px;
+}
+
+.block-activities a {
+    text-decoration: none;
+    color: initial;
+}
+
+.block-col1 {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+}
+
+.block-img-col1 {
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col1 img {
+    zoom: 51%;
+    margin-left: -400px;
+    margin-bottom: -150px;
+}
+.block-col1-info {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+
+/*==================================================================================================================*/
+
+.block-col2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.block-col2-pomegues {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-left: 50px;
+}
+
+.block-img-col2 {
+    max-width: 400px;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col2 img {
+    zoom: 40%;
+    margin-top: -200px;
+}
+.block-col2-info-pomegues {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+/*=======================================================================================================================*/
+
+
+.block-col2-frioul {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.block-img-col2-frioul {
+    max-width: 284px;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col2-frioul img {
+    zoom: 30%;
+    margin-top:-200px;
+    margin-left:-50px;
+}
+.block-col2-info-frioul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+/*=======================================================================================================================*/
+
+
+.block-col3 {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-left: 50px;  
+}
+
+.block-img-col3 {
+    max-width: 310px;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col3 img {
+    zoom: 58%;
+    margin-left: -330px;
+    margin-bottom: -110px;
+    
+
+}
+.block-col3-info {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+/*=======================================================================================================================*/
+
+.block-col4-notredame {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-left: 50px;
+}
+
+.block-img-col4-notredame {
+    max-width: 350px;
+    max-height: 140px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col4-notredame img {
+    zoom: 25%;
+    margin-top:-10px;
+    margin-left:-50px;
+}
+.block-col4-info-notredame {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+/*=======================================================================================================================*/
+
+.block-col4-longchamp {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.block-img-col4-longchamp{
+    max-width: 350px;
+    max-height: 160px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.block-img-col4-longchamp img {
+    zoom: 28%;
+    margin-top:-10px;
+}
+
+.block-col4-info-longchamp {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+/*=======================================================================================================================*/
+
+.block-footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+}
+
+.block-col1-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.block-col1-footer-apropos{
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+
+.block-col2-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.block-col2-footer-noshebergements {
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+
+.block-col3-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.block-col3-footer-assistance {
+    margin-bottom: -10px;
+    font-weight: 700;
+}
