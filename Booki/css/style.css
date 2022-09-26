@@ -1,0 +1,1107 @@
+
+/*Initiation de la fenetre*/
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Definition du CSS global pour le HEADER*/
+
+.flexbox-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* Definition du CSS pour l'emplacement du logo sur le HEADER*/
+.flexbox-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+
+/* Definition du CSS img pour le logo*/
+.flexbox-logo img {
+    width: 100px;
+    height: 50px;
+    margin-left: 50px; 
+}
+
+/* Definition du CSS pour le bouton Hebergements du menu*/
+.flexbox-hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+        
+}
+
+/* Desactivation du trait lors d'un clic sur le lien ainsi que le reset de la couleur*/
+.flexbox-hebergements a {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Definition du CSS lors du clic sur le bouton Hebergement*/
+.flexbox-hebergements a:focus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border: 2px solid #0065fc;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    color: #0065fc;
+}
+
+
+/* Definition du CSS pour le lien Activites du menu */
+.flexbox-activites {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+/* Desactivation du trait lors d'un clic sur le lien*/
+.flexbox-activites a {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Definition du CSS lors du clic sur le lien Activites*/
+.flexbox-activites a:focus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border: 2px solid #0065fc;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    color: #0065fc;
+}
+
+/*===============================================================================================*/
+
+/* Declaration du css pour le Titre de la page */
+
+.title-reve {
+    margin-left: 30px;
+}
+
+/* Declaration du css pour la barre de recherche */
+
+.search-bar { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Declaration du css pour l'icone MAP */
+.icon-map-searchbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+
+
+/* Declaration du css pour le Champ de recherche */
+.search-value {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+/* Declaration du css pour le Champ de recherche */
+#recherche {
+    margin-top: 1px;
+    width: 200px;
+    height: 43px;
+    border-width: 0px;
+    border-color: #F2F2F2;
+    font-weight:bold;
+    font-size: 15px;
+    color: black;
+    
+}
+
+/* Declaration du css pour le bouton de recherche */
+.button-search {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+/* Declaration du css pour le bouton de recherche */
+#boutonSearch {
+    background-color: #0065fc;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-width: 0px;
+    font-weight:bold;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+/*===============================================================================================*/
+
+/*Declaration du css et de la flex box général pour les filtres*/
+.filtres {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:30px;
+    margin-top:30px;
+    
+}
+
+.filtres p {
+    font-weight: 700;
+}
+
+/* Declaration du css pour le premier filtre */
+.filtre1 {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    margin-left: 30px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+/*Declaration du css pour l'icone du billet */
+.icon-dollars {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding:13px;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 0px;
+}
+
+/*Declaration du css/Flexbox pour la légende du filtre*/
+.name-filter-economique {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 27px;
+    
+}
+
+/*Declaration du css pour la légende du filtre*/
+#boutonEconomique {
+    background-color: white;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+
+}
+
+/*Declaration du Hoover pour la selection du filtre*/
+#boutonEconomique:hover {
+    background-color:#0065fc;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+/*================================================================================================*/
+
+/* Declaration du css pour le second filtre */
+.filtre2 {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    margin-left: 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+/*Declaration du css pour l'icone de l'enfant */
+.icon-children {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:13px;
+    padding-bottom:13px;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 0px;
+}
+
+/*Declaration du css/Flexbox pour la légende du filtre*/
+.name-filter-familial {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+
+/*Declaration du css pour la légende du filtre*/
+#boutonFamilial {
+    background-color: white;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*Declaration du Hoover pour la selection du filtre*/
+#boutonFamilial:hover {
+    background-color:#0065fc;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+/*================================================================================================*/
+
+/* Declaration du css pour le second filtre */
+.filtre3 {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    margin-left: 30px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+/*Declaration du css pour l'icone de l'enfant */
+.icon-hearth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding:13px;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 0px;
+}
+
+/*Declaration du css/Flexbox pour la légende du filtre*/
+.name-filter-romantique {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+
+/*Declaration du css pour la légende du filtre*/
+#boutonCoeur {
+    background-color: white;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+/*Declaration du Hoover pour la selection du filtre*/
+#boutonCoeur:hover {
+    background-color:#0065fc;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+
+/*================================================================================================*/
+
+/* Declaration du css pour le second filtre */
+.filtre4 {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    margin-left: 30px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+/*Declaration du css pour l'icone du chien */
+.icon-dog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065fc;
+    background-color: #DEEBFF;
+    padding:13px;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 0px;
+}
+
+/*Declaration du css/Flexbox pour la légende du filtre*/
+.name-filter-animaux {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+
+/*Declaration du css pour la légende du filtre*/
+#boutonAnimaux {
+    background-color: white;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+/*Declaration du Hoover pour la selection du filtre*/
+#boutonAnimaux:hover {
+    background-color:#0065fc;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+
+/*================================================================================================*/
+
+/* Déclaration du css pour la ligne d'information*/
+.info-accommodation {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:30px;
+    
+}
+
+/*Declaration du flexbox pour l'icone information */
+.icon-info {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:8px;
+    padding-right:8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.fa-info {
+    color: #0065fc;
+}
+
+.text-info {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:15px;
+}
+
+/*==================================================================================================*/
+
+/*Declaration de la flexbox principal pour l'affichage des logements */
+.main-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+/*Declaration du css pour enlever les text-decoration car les DIV sont des liens*/
+
+.main-block a {
+    text-decoration: none;
+    color: initial;
+}
+/*Declaration du css pour le block Gauche*/
+.left-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color:#F2F2F2;
+}
+
+/*Declaration du titre pour le block Gauche*/
+.left-block-title {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+/*Declaration du css pour la ligne1 */
+.left-block-line1 {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    padding-right: 50px;
+}
+
+/*===========================================================================================================================================*/
+
+.blockHebergementLaCannebiere {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 15px 15px 15px 15px;
+        background-color: white;
+        text-decoration: none;
+        
+}
+
+.blockHebergementLaCannebiere img{
+    height: 150px;
+    width: 270px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+}
+
+.blockHebergementLaCannebiere h4 {
+    margin-top:5px;
+    margin-bottom:2px;
+    margin-left:15px;
+}
+
+.blockHebergementLaCannebiere p {
+    margin-top:1px;
+    margin-bottom:2px;
+    margin-left:15px;
+}
+.block-icon-stars-cannebiere {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:15px;
+    padding-bottom:10px;
+    
+}
+
+.block-icon-stars-cannebiere .fa-star {
+    margin-left:2px;
+    color: #0065fc;
+}
+
+.block-icon-stars-cannebiere .fa-regular {
+    margin-left:2px;
+    color:grey
+}
+/*========================================================================================================================================================*/
+.block-hotelduport {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:30px;
+    padding-bottom:10px;
+}
+
+
+.block-hotelduport img{
+height: 150px;
+width: 270px;
+border-radius: 15px 15px 15px 15px;
+padding: 5px;
+}
+
+.block-hotelduport h4 {
+margin-top:5px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-hotelduport p {
+margin-top:1px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+
+.block-icon-stars-hotelduport {
+    margin-left: 15px;
+}
+.block-icon-stars-hotelduport .fa-star {
+margin-left:0px;
+color: #0065fc;
+}
+
+.block-icon-stars-hotelduport .fa-regular {
+margin-left:0px;
+color:grey
+}
+
+ /*===============================================================================================================================================================*/
+ .block-hotellesmouettes {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:30px;
+    padding-bottom:10px;
+    
+}
+
+.block-hotellesmouettes img{
+height: 150px;
+width: 270px;
+border-radius: 15px 15px 15px 15px;
+padding: 5px;
+}
+
+.block-hotellesmouettes h4 {
+margin-top:5px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-hotellesmouettes p {
+margin-top:1px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-icon-stars-hotellesmouettes {
+    margin-left: 15px;
+}
+.block-icon-stars-hotellesmouettes .fa-star {
+margin-left:0px;
+color: #0065fc;
+}
+
+.block-icon-stars-hotellesmouettes .fa-regular {
+margin-left:0px;
+color:grey
+}
+ /*============================================================================================================================================================================*/
+/*Declaration du css pour la ligne2 */
+.left-block-line2 {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.block-hoteldelamer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:45px;
+    padding-bottom:10px;
+}
+
+.block-hoteldelamer img{
+
+border-radius: 15px 15px 15px 15px;
+padding: 5px;
+height: 150px;
+width: 270px;
+}
+
+.block-hoteldelamer h4 {
+margin-top:5px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-hoteldelamer p {
+margin-top:1px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-icon-stars-hoteldelamer {
+    margin-left: 15px;
+}
+.block-icon-stars-hoteldelamer .fa-star {
+margin-left:0px;
+color: #0065fc;
+}
+
+.block-icon-stars-hoteldelamer .fa-regular {
+margin-left:0px;
+color:grey
+}
+
+/*=======================================================================================================================================================================*/
+.block-aubergelepanier {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:30px;
+    padding-bottom:10px;
+}
+
+.block-aubergelepanier img{
+height: 150px;
+width: 270px;
+border-radius: 15px 15px 15px 15px;
+padding: 5px;
+}
+
+.block-aubergelepanier h4 {
+margin-top:5px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-aubergelepanier p {
+margin-top:1px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-icon-stars-aubergelepanier {
+    margin-left: 15px;
+}
+.block-icon-stars-aubergelepanier .fa-star {
+margin-left:0px;
+color: #0065fc;
+}
+
+.block-icon-stars-aubergelepanier .fa-regular {
+margin-left:0px;
+color:grey
+}
+
+/*===============================================================================================================================================================*/
+.block-hotelchezamina {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:30px;
+    padding-bottom:10px;
+}
+
+.block-hotelchezamina img{
+height: 150px;
+width: 270px;
+border-radius: 15px 15px 15px 15px;
+padding: 5px;
+}
+
+.block-hotelchezamina h4 {
+margin-top:5px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-hotelchezamina p {
+margin-top:1px;
+margin-bottom:2px;
+margin-left:15px;
+}
+
+.block-icon-stars-hotelchezamina {
+    margin-left: 15px;
+}
+.block-icon-stars-hotelchezamina .fa-star {
+margin-left:0px;
+color: #0065fc;
+}
+
+.block-icon-stars-hotelchezamina .fa-regular {
+margin-left:0px;
+color:grey
+}
+
+/*=====================================================================================================================================================*/
+.title-showmore {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.title-showmore p {
+    font-weight: bold;
+}
+
+/*=============================================================================================*/
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:#F2F2F2;
+}
+
+.right-block-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.right-block-title .fa-star {
+    margin-left: 220px;
+}
+
+/*===============================================================================================*/
+.block-hotellesoleildumatin {
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-left:30px;
+    margin-right:45px;
+    padding-right:50px;
+    }
+    
+    .block-info-hotellesoleildumatin {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .block-hotellesoleildumatin img{
+    height: 170px;
+    width: 160px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+    }
+    
+    .block-hotellesoleildumatin h4 {
+    margin-top:5px;
+    margin-bottom:2px;
+    margin-left:15px;
+    }
+    
+    .block-hotellesoleildumatin p {
+    margin-top:1px;
+    margin-left:15px;
+    }
+    
+    .block-icon-stars-hotellesoleildumatin {
+        margin-left: 15px;
+        margin-top: 55px;
+    }
+    .block-icon-stars-hotellesoleildumatin .fa-star {
+    color: #0065fc;
+    }
+    
+    .block-icon-stars-hotellesoleildumatin .fa-regular {
+    color:grey
+    }
+
+    /*==============================================================================================================*/
+
+    .title-activities h3 {
+        margin-left: 50px;
+    }
+    
+    .block-activities {
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        padding-bottom: 60px;
+    }
+    
+    .block-activities a {
+        text-decoration: none;
+        color: initial;
+    }
+    
+    .block-col1 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+    }
+    
+    .block-img-col1 {
+        max-width: 300px;
+        max-height: 500px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col1 img {
+        zoom: 51%;
+        margin-left: -400px;
+        margin-bottom: -150px;
+    }
+    .block-col1-info {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 20px;
+        padding-bottom: 5px;
+        font-weight: 700;
+    }
+    
+    
+    /*==================================================================================================================*/
+    
+    .block-col2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .block-col2-pomegues {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        margin-left: 50px;
+    }
+    
+    .block-img-col2 {
+        max-width: 400px;
+        max-height: 200px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col2 img {
+        zoom: 40%;
+        margin-top: -200px;
+    }
+    .block-col2-info-pomegues {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+    
+    /*=======================================================================================================================*/
+    
+    
+    .block-col2-frioul {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .block-img-col2-frioul {
+        max-width: 284px;
+        max-height: 100px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col2-frioul img {
+        zoom: 30%;
+        margin-top:-200px;
+        margin-left:-50px;
+    }
+    .block-col2-info-frioul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+    
+    /*=======================================================================================================================*/
+    
+    
+    .block-col3 {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        margin-left: 50px;  
+    }
+    
+    .block-img-col3 {
+        max-width: 310px;
+        max-height: 500px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col3 img {
+        zoom: 58%;
+        margin-left: -330px;
+        margin-bottom: -110px;
+        
+    
+    }
+    .block-col3-info {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 20px;
+        padding-bottom: 5px;
+        font-weight: 700;
+    }
+    
+    /*=======================================================================================================================*/
+    
+    .block-col4-notredame {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        margin-left: 50px;
+    }
+    
+    .block-img-col4-notredame {
+        max-width: 350px;
+        max-height: 140px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col4-notredame img {
+        zoom: 25%;
+        margin-top:-10px;
+        margin-left:-50px;
+    }
+    .block-col4-info-notredame {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+    
+    /*=======================================================================================================================*/
+    
+    .block-col4-longchamp {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .block-img-col4-longchamp{
+        max-width: 350px;
+        max-height: 160px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .block-img-col4-longchamp img {
+        zoom: 28%;
+        margin-top:-10px;
+    }
+    
+    .block-col4-info-longchamp {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+    }
+    
+    /*=======================================================================================================================*/
+    
+    .block-footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+    }
+    
+    .block-col1-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .block-col1-footer-apropos{
+        margin-bottom: -10px;
+        font-weight: 700;
+    }
+    
+    .block-col2-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 230px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .block-col2-footer-noshebergements {
+        margin-bottom: -10px;
+        font-weight: 700;
+    }
+    
+    .block-col3-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 230px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .block-col3-footer-assistance {
+        margin-bottom: -10px;
+        font-weight: 700;
+    }
